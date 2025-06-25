@@ -1,0 +1,15 @@
+[project]
+name = "qa-assignment"
+version = "0.1.0"
+description = "Automation testing for login, adding items to cart, filling form and placing order and logout "
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "html-testrunner>=1.2.1",
+    "selenium>=4.33.0",
+    "webdriver-manager>=4.0.2",
+]
+
+
+[project.scripts]
+test = "python login.py"

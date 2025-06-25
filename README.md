@@ -54,6 +54,7 @@ Adjust the path and filename to match your actual test entry point.
 - uv – Fast, modern Python environment manager
 - pipx – Tool to install Python CLIs in isolated environments
 
+```bash
 📁 Suggested Project Structure
 qa-assignment/
 ├── Locators/
@@ -66,6 +67,7 @@ qa-assignment/
 │   └── test_report.html
 ├── pyproject.toml
 └── README.md
+```
 
 
 

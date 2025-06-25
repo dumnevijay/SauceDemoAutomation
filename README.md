@@ -69,6 +69,8 @@ qa-assignment/
 └── README.md
 ```
 
+Youtube Video link: https://youtu.be/ZzI75QUtr-o
+
 
 
 

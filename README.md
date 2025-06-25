@@ -4,9 +4,13 @@ Automation testing for login, adding items to cart, filling out forms, placing o
 This test suite automates end-to-end scenarios using Selenium WebDriver in Python 3.13+ to validate key user journeys and functionality. It covers login authentication, cart operations, form validations, and checkout flow using a clean uv-managed environment.
 📂 How to Clone the Repository
 
-```git clone https://github.com/dumnevijay/SauceDemoAutomation.git```
+```bash
+git clone https://github.com/dumnevijay/SauceDemoAutomation.git
+```
 
-```cd qa-assignment```
+```bash
+cd qa-assignment
+```
 
 
 Replace your-username with your actual GitHub username.
@@ -15,21 +19,29 @@ Replace your-username with your actual GitHub username.
 🧰 Environment Setup Using pipx + uv
 1. Install pipx
 
-```pip install pipx```
+```bash
+pip install pipx
+```
 
-```python -m pipx ensurepath```
+```bash
+python -m pipx ensurepath
+```
 
 
 You may need to restart your terminal for pipx to be recognized.
 
 2. Use pipx to Install uv
 
-```pipx install uv```
+```bash
+pipx install uv
+```
 
 🧪 Running Tests
 To run all Selenium test cases:
 
-```uv python login.py```
+```bash
+uv python login.py
+```
 
 
 Adjust the path and filename to match your actual test entry point.
